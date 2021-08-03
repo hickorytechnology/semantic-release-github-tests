@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/hickorytechnology/semantic-release-github-tests/compare/v1.0.2...v1.0.3) (2021-08-03)
+
+
+### Bug Fixes
+
+* foo ([f26a687](https://github.com/hickorytechnology/semantic-release-github-tests/commit/f26a687041860b4d54e7f1ce43d70956e7042113)), closes [#2](https://github.com/hickorytechnology/semantic-release-github-tests/issues/2)
+
 ## [1.0.2](https://github.com/hickorytechnology/semantic-release-github-tests/compare/v1.0.1...v1.0.2) (2021-08-03)
 
 
