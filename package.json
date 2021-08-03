@@ -20,6 +20,21 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-angular": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@hickorytechnology/semantic-release-github": "^1.0.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@size-limit/preset-small-lib": "^5.0.2",
+    "commitizen": "^4.2.4",
+    "husky": "^7.0.1",
+    "size-limit": "^5.0.2",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -43,13 +58,5 @@
       "path": "dist/semantic-release-github-tests.esm.js",
       "limit": "10 KB"
     }
-  ],
-  "devDependencies": {
-    "@size-limit/preset-small-lib": "^5.0.2",
-    "husky": "^7.0.1",
-    "size-limit": "^5.0.2",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.3.0",
-    "typescript": "^4.3.5"
-  }
+  ]
 }
