@@ -18,6 +18,17 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "@semantic-release/git"
+    "@semantic-release/git",
+    [
+      "@hickorytechnology/semantic-release-github",
+      {
+        "assets": [
+          {
+            "path": "dist",
+            "label": "Package distribution"
+          }
+        ]
+      }
+    ]
   ]
 }
