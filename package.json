@@ -1,7 +1,10 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "name": "semantic-release-github-tests",
+  "author": "Josh Sullivan",
   "main": "dist/index.js",
+  "module": "dist/semantic-release-github-tests.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -17,6 +20,7 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
+    "commit": "git-cz",
     "analyze": "size-limit --why"
   },
   "peerDependencies": {},
@@ -46,9 +50,11 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "semantic-release-github-tests",
-  "author": "Josh Sullivan",
-  "module": "dist/semantic-release-github-tests.esm.js",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "size-limit": [
     {
       "path": "dist/semantic-release-github-tests.cjs.production.min.js",
