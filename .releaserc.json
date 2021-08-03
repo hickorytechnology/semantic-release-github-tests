@@ -22,12 +22,12 @@
     [
       "@hickorytechnology/semantic-release-github",
       {
-        "assets": [
-          {
-            "path": "dist",
-            "label": "Package distribution"
-          }
-        ]
+        "successComment": {
+          "enabled": true
+        },
+        "releasedLabels": {
+          "enabled": true
+        }
       }
     ]
   ]
