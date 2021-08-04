@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/hickorytechnology/semantic-release-github-tests/compare/v1.0.3...v1.0.4) (2021-08-04)
+
+
+### Bug Fixes
+
+* decorate test ([273b608](https://github.com/hickorytechnology/semantic-release-github-tests/commit/273b608388cd8fc4a682c18d033ade22bdbddd45))
+
 ## [1.0.3](https://github.com/hickorytechnology/semantic-release-github-tests/compare/v1.0.2...v1.0.3) (2021-08-03)
 
 
