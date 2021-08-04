@@ -29,6 +29,12 @@
           "enabled": true
         }
       }
+    ],
+    [
+      "decorate-gh-pr/on-release",
+      {
+        "comment": "Hello <%= version %> on <% print(date.toISOString()) %>"
+      }
     ]
   ]
 }
